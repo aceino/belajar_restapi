@@ -1,0 +1,27 @@
+### GET ALL
+GET http://localhost:3000/book
+
+### POST
+POST http://localhost:3000/book
+Content-Type: application/json
+
+{
+    "title" : "contoh_baru_lagi",
+    "author" : "contoh_baru_lagi"
+}
+
+### GET BY ID
+GET http://localhost:3000/book/6
+
+### UPDATE
+PUT  http://localhost:3000/book/5
+Content-Type: application/json
+
+{
+    "title" : "contoh_update_lima",
+    "author" : "contoh_update_lima"
+}
+
+
+### DELETE
+DELETE http://localhost:3000/book/5
