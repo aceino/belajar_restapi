@@ -1,1 +1,1 @@
-Create a rest api using fiber
+Create a simple rest api using fiber
